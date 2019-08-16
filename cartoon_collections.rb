@@ -12,5 +12,5 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  shared.to_s = array & cheese_types
+  shared = array & cheese_types
 end

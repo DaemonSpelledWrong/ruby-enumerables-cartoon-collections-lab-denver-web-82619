@@ -15,6 +15,6 @@ def find_the_cheese(array)
   if shared = array & cheese_types = []
     return nil
   else
-    return shard
+    return shared
   end
 end

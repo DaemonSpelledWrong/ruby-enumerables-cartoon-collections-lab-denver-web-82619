@@ -12,7 +12,7 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if shared = array.to_s & cheese_types.to_s
+  if shared = array & cheese_types
     return shared
   else
     return nil

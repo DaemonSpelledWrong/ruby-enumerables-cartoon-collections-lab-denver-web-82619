@@ -12,5 +12,5 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.first(array & cheese_types)
+  array.first {|x| array & cheese_types }
 end
